@@ -19,6 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
 Route::get('/bb/b1', function (){
     return view('bb.b1');
 });
@@ -26,3 +27,12 @@ Route::get('/bb/b1', function (){
 Route::get('/bb/b2', function (){
     return view('bb.b2');
 });
+
+Route::get('/aa/a1', function () {
+    return view('aa.a1');
+});
+
+Route::get('/aa/a2', function () {
+    return view('aa.a2');
+});
+
